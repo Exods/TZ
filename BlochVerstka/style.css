@@ -1,0 +1,22 @@
+.header{
+	display: inline-block;
+	border: 8px solid green;
+	text-align: center;
+	padding: 25px 20px;
+	border-radius: 20px;
+	margin: 10px auto;
+	width: 96%;
+	font-size: 43px ;
+}
+
+.menu{
+	float: left;
+	width: 25%;
+}
+.content{
+	float: right;
+	width: 64%;
+}
+.footer{
+	margin-bottom: 0;
+}
