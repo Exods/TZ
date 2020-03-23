@@ -1,0 +1,33 @@
+.old{
+	 width: 980px; 
+	 height: 800px;
+	 margin: auto;
+	
+	
+}
+.content1,
+.content2,
+.content3{
+float: left;
+height: 600px
+}
+	
+.content1 {
+ width: 180px;
+  background:grey ;
+   color: #white;
+   
+    }
+  .content2 {
+   width: 500px;
+   background: aqua;
+   color: black;
+    }
+  .content3 { 
+  	width: 200px;
+  	 background: green;
+  	  color: #FFE;
+  	   }
+.content3 a{
+	font-size: 55px;
+}
