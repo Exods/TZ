@@ -1,8 +1,19 @@
 .old{
 	width: 700px;
-	height: 600px;
+	height: 500px;
 }
-#header,
+.header,
+.menu,
+.content,
+.footer{
+  box-sizing: border-box;
+  margin-top: 10px;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+  background: cadetblue;
+}
+/* #header,
 #content,
 #menu,
 #footer {
@@ -12,21 +23,19 @@
   padding: 15px;
   font-size: 30px;
   background: cadetblue;
-}
-#p {
+} */
+.text {
   margin: 5px 0;
   font-size: 15px;
 }
-#content {
+.content {
   background: beige;
   color: black;
 }
-#footer {
+.footer {
   margin-bottom: 5px;
 }
-#menu {
-  background: cadetblue;
-}
+
 .li {
   color: white;
 }
