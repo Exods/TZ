@@ -10,6 +10,9 @@
   font-size: 30px;
   background: cadetblue;
 }
+.test{
+  border: 2px solid red;
+}
 /* #header,
 #content,
 #menu,
@@ -24,10 +27,12 @@
 .text {
   margin: 5px 0;
   font-size: 15px;
+  padding: 5px;
 }
 .content {
   background: beige;
   color: black;
+
 }
 .footer {
   margin-bottom: 5px;
