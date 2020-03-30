@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue|Sen|Spicy+Rice&display=swap');
+.old{
+  font-family: "Sen";
 
+}
 .header,
 .menu,
-.content,
-.footer{
+.content
+{
   box-sizing: border-box;
   margin-top: 10px;
   color: white;
@@ -34,8 +38,19 @@
   color: black;
 
 }
+p{
+  font-family: 'Comic Neue', cursive;
+  font-size: 15px;
+}
+h3{
+  font-family: "Sen";
+}
 .footer {
   margin-bottom: 5px;
+  background: #343a40!important;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
 }
 
 .li {
