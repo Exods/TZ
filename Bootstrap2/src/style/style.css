@@ -1,29 +1,55 @@
 body{
-	box-sizing: border-box;
+	
+box-sizing: border-box;
+
 	
 }
+
 .p {
-	font-size: 19px;
-	color: red;
-	background: green;
+
+    font-size: 15px;
+    color: red;
+    margin-top: 15px;
+}
+	
+.tex{
+
+border: 5px solid black;
+
 
 }
-.nav-link{
-	color: red;
-}
-.t{
-	background: green
 
-}
 .footer {
-  margin-bottom: 5px;
+  
+margin-bottom: 5px;
+
   background: aqua;
-  color: black;
-  padding: 10px;
-  font-size: 19px;
+  
+color: black;
+ 
+ padding: 10px;
+  
+font-size: 19px;
+
 }
-img{
-	width: 100px;
-	height: 100px;
-	float: left;
+
+.pz{
+
+    position: absolute;
+    margin: 0px;
+    right: 0;
+    width: 100%;
+    
+.con {
+
+    
+    margin: 0 20px;
+    
+}
+.bg-info{
+font-size:30px;
+}
+
+.bt {
+        width: 20%;
 }
