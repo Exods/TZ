@@ -14,20 +14,8 @@
   font-size: 30px;
   background: cadetblue;
 }
-.test{
-  border: 2px solid red;
-}
-/* #header,
-#content,
-#menu,
-#footer {
-  box-sizing: border-box;
-  margin-top: 10px;
-  color: white;
-  padding: 15px;
-  font-size: 30px;
-  background: cadetblue;
-} */
+
+
 .text {
   margin: 5px 0;
   font-size: 15px;
@@ -36,6 +24,7 @@
 .content {
   background: beige;
   color: black;
+  margin-top: 105px;
 
 }
 p{
@@ -65,12 +54,10 @@ h3{
     color: white;
     text-decoration: none;
     padding: 0;
-    margin: 2px;
+    margin-top: 3px;
 }
-.navbar-collapse{
-  position: absolute;
-}
-.navbar-nav {
+
+/* .navbar-nav {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -78,9 +65,14 @@ h3{
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    width: 130%;
-}
+    
+} */
 .col_header{
   padding: 0px;
   margin: 0px;
+
 }
+
+ .red{
+  border: 2px solid red;
+ }
