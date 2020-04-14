@@ -24,7 +24,6 @@
 .content {
   background: beige;
   color: black;
-  margin-top: 105px;
 
 }
 p{
@@ -55,7 +54,7 @@ h3{
     text-decoration: none;
     padding: 0;
     margin-top: 3px;
-    margin-right: 2px;
+    margin: 2px;
 }
 
 /* .navbar-nav {
@@ -80,4 +79,28 @@ h3{
 
 body{
   margin: 0;
+}
+@media (max-width:568px) {
+  .navbar
+   {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .footer {
+    position: static;
+    bottom: 0;
+    right: auto;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  
+  .content {
+    margin-top: 105px;
+    
+  }
+
 }
