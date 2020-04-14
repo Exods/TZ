@@ -3,21 +3,49 @@
 } */
 
 .img_logo {vertical-align: middle;    border-style: none;    width: 130px;    height: 85px;}
-
+.p{
+  font-size: 13px;
+  font-weight:bold;
+}
+.pb{
+  color: red;
+  font-size: 15px;
+}
 .banner1{
+  padding: 20px;
+  
    background: rgba(0,0,0, 0.6) url("../img/1.jpg") no-repeat;
    background-size: cover;
-   border: 3px solid white;
+   border: 5px solid white;
+   height: 350px;
 }
 .banner2{
+  padding: 20px ;
+    
    background: rgba(0,0,0, 0.6) url("../img/2.jpg") no-repeat;
    background-size: cover;
-   border: 3px solid white;
+   border: 5px solid white;
+   height: 350px;
 }
 .banner3{
+    
+  padding: 20px ;
    background: rgba(0,0,0, 0.6) url("../img/3.jpg") no-repeat;
    background-size: cover;
-   border: 3px solid white;
+   border: 5px solid white;
+   height: 350px;
+}
+.b_1 {
+    top: 160px;
+    position: relative;
+}
+.b_2{
+top: 0px;
+    position: relative;
+}
+.b_3{
+top: 140px;
+    position: relative;
 }
 
 .menu_list{display:none;position: absolute;width: 100%;top: 50px;z-index: 1000;}
@@ -30,7 +58,7 @@
 .btn-light {color: #212529; background-color: #f8f9fa; border-color: #f8f9fa; position: absolute; border: 2px solid black; display: block; right: 60px;
     top: 21px;}
     .content_form{
-    	position: relative;font-size: 18px;}
+      position: relative;font-size: 18px;}
 
 
 
@@ -38,9 +66,10 @@
 @media (min-width:770px){
 .menu_list{display:block;position: absolute;width: 100%;top: 13px;}
 .menu_list ul{list-style: none;margin: 0;padding: 0; margin-right: 26px;}
-.menu_list ul li {display: block;float: right;padding: 0;border: 1px solid black;margin-right: 20px;margin-top: 21px;  }
-.menu_list ul li a{margin:0px;background:white; color:black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
+.menu_list ul li {display: block;float: right;padding: 0;border: 1px solid black;border-radius:14px;margin-right: 20px;margin-top: 21px;  }
+.menu_list ul li a{margin:10px;background:white; color:black;text-decoration: none;display: block;padding: 0;font-size: 20px;}
 .menu_list ul li a:hover,
-.menu_list ul li a.open{margin:0px;background:black; color:white;text-decoration: none;display: block;}
+.menu_list ul li a.open{margin:0px;background:black; color:white;text-decoration: none;display: block;border-radius: 14px;font-size: 20px;padding: 10px;} 
 .btn-light {display: none}
 }
+
