@@ -1,0 +1,23 @@
+.red{ border:2px solid red; }
+
+
+
+.header{padding: 45px;}
+.header_logo{display: inherit;padding:15px;}
+.headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
+.header-logo-title{font-size: 20px;margin-top: 12px;margin-left: 5px;}
+.header-menu{border: 1px dotted grey; margin: 13px;margin-left:40px;padding: 15px;display: inline-block;}
+.header-menu-block{list-style: none;display: inline;padding: 5px}
+.header-menu-block-items{display: inline}
+.header-menu-block-items a{text-decoration:none;margin-left:10px; color: darkgrey;font-size: 15px;font-weight: bold;}
+.header-menu-block-items a:hover{color: #000; }
+.menu-button{display: none;}
+
+
+@media (max-width:780px){
+.header-menu{display: none;}
+.header-menu-block{display: none;}
+.menu-button{display:block;border:1px solid black;border-radius: 3px;padding:15px;position: absolute;top:60px;right: 80px;}
+
+}
+
