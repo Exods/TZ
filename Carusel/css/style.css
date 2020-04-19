@@ -1,23 +1,26 @@
-.red{ border:2px solid red; }
+/* .red{ border:2px solid red; } */
 
 
-
-.header{padding: 45px;}
-.header_logo{display: inherit;padding:15px;}
+.container-fluid{}
+.header{justify-content: space-between;display: inline-flex;padding: 45px 20px 45px 45px;}
+.header_logo{display: flex;padding:15px;}
 .headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
-.header-logo-title{font-size: 20px;margin-top: 12px;margin-left: 5px;}
-.header-menu{border: 1px dotted grey; margin: 13px;margin-left:40px;padding: 15px;display: inline-block;}
-.header-menu-block{list-style: none;display: inline;padding: 5px}
-.header-menu-block-items{display: inline}
-.header-menu-block-items a{text-decoration:none;margin-left:10px; color: darkgrey;font-size: 15px;font-weight: bold;}
+.header-logo-title{font-size: 30px;margin-top: 8px;margin-left: 5px;}
+.header-menu{border: 1px dotted grey; padding: 15px;display: inline-block;position: relative;top:50px;right: 200px;}
+  .header-menu-block{list-style: none;display: inline;padding: 5px}
+.header-menu-block-items{display: inline;}
+.header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 25px;font-weight: bold;}
 .header-menu-block-items a:hover{color: #000; }
 .menu-button{display: none;}
 
 
-@media (max-width:780px){
-.header-menu{display: none;}
+@media (max-width:860px){
+.header-menu{border: none;}
 .header-menu-block{display: none;}
-.menu-button{display:block;border:1px solid black;border-radius: 3px;padding:15px;position: absolute;top:60px;right: 80px;}
-
+.menu-button{display:block;border:1px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
+.header-menu-block.open{padding:0;display:block;position: absolute;right:-180px;top:18px;background: #grey; border:2px solid black;}
+.header-menu-block.open li{background: #000;margin:0;}
+.header-menu-block.open li a{ font-size: 15px;margin: 0px;background: white;color: black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
+.header-menu-block.open li a:hover{ font-size: 35px;margin: 0px;background: black;color: white;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
 }
 
