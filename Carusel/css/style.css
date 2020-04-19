@@ -12,13 +12,14 @@
 .header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 25px;font-weight: bold;}
 .header-menu-block-items a:hover{color: #000; }
 .menu-button{display: none;}
+.img-computer{width: 100% \9;}
 
 
-@media (max-width:860px){
+@media (max-width:920px){
 .header-menu{border: none;}
 .header-menu-block{display: none;}
 .menu-button{display:block;border:1px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
-.header-menu-block.open{padding:0;display:block;position: absolute;right:-180px;top:18px;background: #grey; border:2px solid black;}
+.header-menu-block.open{z-index:1000; padding:0;display:block;position: absolute;right:-180px;top:18px;background: #grey; border:2px solid black;}
 .header-menu-block.open li{background: #000;margin:0;}
 .header-menu-block.open li a{ font-size: 15px;margin: 0px;background: white;color: black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
 .header-menu-block.open li a:hover{ font-size: 35px;margin: 0px;background: black;color: white;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
