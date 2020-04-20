@@ -8,21 +8,24 @@ body{background: grey;padding: 0;}
 .headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
 .header-logo-title{font-size: 30px;margin-top: 8px;margin-left: 5px;}
 .header-menu{border: 1px solid grey; padding: 15px;display: inline-block;position: relative;top:50px;right: 200px;}
-  .header-menu-block{list-style: none;display: inline;padding: 5px}
+.header-menu-block{list-style: none;display: inline;padding: 5px}
 .header-menu-block-items{display: inline;}
 .header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 25px;font-weight: bold;}
 .header-menu-block-items a:hover{color: #000; }
 .menu-button{display: none;}
 .img-computer{width: 100% \9;}
-.block-welcome {position: absolute;top: -20px;left: 75px;z-index: 1000;}
-.block-welcome-bg{display: inline-block;color: white;background:#67c5d2; padding: 10px 30px 10px 10px;}
+.block-welcome{display: inline-block;color: white;background:#67c5d2; padding: 20px 50px 20px 10px;position: absolute;top: -20px;left: 75px;z-index: 1000;}
 .content{display: flex;align-items: center;margin-bottom: 50px;}
 .content-h2{margin-bottom: 20px}
 .content-img{margin-right:23px;max-width: 225px;width: 45%}
+.content-block-2{padding: 40px;margin-left: 10px;border:1px solid grey;margin-bottom: 10px;border-radius: 25px;min-height: 100%;}
+.content-block-2-img{width: 30%;padding: 10px;}
+.btn-secondary{margin-left: 150px;}
+.carusel-items{padding: 20px 200px 20px 50px;background: #67c5d2;display: inline-block;margin: 50px 10px 50px 75px;}
 
 
 
-@media (max-width:920px){
+@media (max-width:997px){
 .header-menu{border: none;}
 .header-menu-block{display: none;}
 .menu-button{display:block;border:2px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
