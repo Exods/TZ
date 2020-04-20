@@ -1,8 +1,9 @@
 /* .red{ border:2px solid red; } */
+html{padding: 0;}
+body{background: grey;padding: 0;}
 
-
-.container-fluid{}
-.header{justify-content: space-between;display: inline-flex;padding: 45px 20px 45px 45px;}
+.container-fluid{max-width: 1240px;margin-left: auto;margin-right: auto; padding: 0;}
+.header{justify-content: space-between;display: inline-flex;padding: 45px 20px 45px 45px;margin-left: auto;margin-right: auto;}
 .header_logo{display: flex;padding:15px;}
 .headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
 .header-logo-title{font-size: 30px;margin-top: 8px;margin-left: 5px;}
@@ -13,12 +14,15 @@
 .header-menu-block-items a:hover{color: #000; }
 .menu-button{display: none;}
 .img-computer{width: 100% \9;}
+.block-welcome {position: absolute;top: -20px;left: 75px;z-index: 1000;}
+.block-welcome-bg{display: inline-block;color: white;background:#67c5d2; padding: 10px 30px 10px 10px;}
+
 
 
 @media (max-width:920px){
 .header-menu{border: none;}
 .header-menu-block{display: none;}
-.menu-button{display:block;border:1px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
+.menu-button{display:block;border:2px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
 .header-menu-block.open{z-index:1000; padding:0;display:block;position: absolute;right:-180px;top:18px;background: #grey; border:2px solid black;}
 .header-menu-block.open li{background: #000;margin:0;}
 .header-menu-block.open li a{ font-size: 15px;margin: 0px;background: white;color: black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
