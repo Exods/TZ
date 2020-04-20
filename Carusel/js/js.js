@@ -1,6 +1,27 @@
 $(function(){
      $(".menu-button").click(function(){
-     	console.log(1)
-      $(".header-menu-block").toggleClass("open");
+         $(".header-menu-block").toggleClass("open");
    });
+      var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 30,
+                loop: true,
+                dots:true,
+                nav:true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1300: {
+                    items: 4
+                  },
+                  1500: {
+                    items: 4
+                  },
+
+                }
+              })
 });
