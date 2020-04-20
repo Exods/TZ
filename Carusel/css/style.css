@@ -7,7 +7,7 @@ body{background: grey;padding: 0;}
 .header_logo{display: flex;padding:15px;}
 .headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
 .header-logo-title{font-size: 30px;margin-top: 8px;margin-left: 5px;}
-.header-menu{border: 1px dotted grey; padding: 15px;display: inline-block;position: relative;top:50px;right: 200px;}
+.header-menu{border: 1px solid grey; padding: 15px;display: inline-block;position: relative;top:50px;right: 200px;}
   .header-menu-block{list-style: none;display: inline;padding: 5px}
 .header-menu-block-items{display: inline;}
 .header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 25px;font-weight: bold;}
@@ -18,7 +18,7 @@ body{background: grey;padding: 0;}
 .block-welcome-bg{display: inline-block;color: white;background:#67c5d2; padding: 10px 30px 10px 10px;}
 .content{display: flex;align-items: center;margin-bottom: 50px;}
 .content-h2{margin-bottom: 20px}
-.content-img{margin-right:23px;max-width: 225px;width: 50%}
+.content-img{margin-right:23px;max-width: 225px;width: 45%}
 
 
 
