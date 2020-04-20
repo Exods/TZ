@@ -16,6 +16,9 @@ body{background: grey;padding: 0;}
 .img-computer{width: 100% \9;}
 .block-welcome {position: absolute;top: -20px;left: 75px;z-index: 1000;}
 .block-welcome-bg{display: inline-block;color: white;background:#67c5d2; padding: 10px 30px 10px 10px;}
+.content{display: flex;align-items: center;margin-bottom: 50px;}
+.content-h2{margin-bottom: 20px}
+.content-img{margin-right:23px;max-width: 225px;width: 50%}
 
 
 
