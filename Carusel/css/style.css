@@ -4,25 +4,24 @@ body{background: grey;padding: 0;}
 
 .container-fluid{max-width: 1240px;margin-left: auto;margin-right: auto; padding: 0;}
 .header{justify-content: space-between;display: inline-flex;padding: 45px 20px 45px 45px;margin-left: auto;margin-right: auto;}
-.header_logo{display: flex;padding:15px;}
+.header_logo{display:inline-flex;padding:15px;}
 .headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
 .header-logo-title{font-size: 30px;margin-top: 8px;margin-left: 5px;}
-.header-menu{border: 1px solid grey; padding: 15px;display: inline-block;position: relative;top:50px;right: 200px;}
+.header-menu{border: 1px solid grey; padding: 15px;display: inline-block;position: relative;top:20px;right: 40px;}
 .header-menu-block{list-style: none;display: inline;padding: 5px}
 .header-menu-block-items{display: inline;}
-.header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 25px;font-weight: bold;}
+.header-menu-block-items a{text-decoration:none;margin-left:20px; color: darkgrey;font-size: 19px;font-weight: bold; padding:25px;}
 .header-menu-block-items a:hover{color: #000; }
 .menu-button{display: none;}
 .img-computer{width: 100% \9;}
-.block-welcome{display: inline-block;color: white;background:#67c5d2; padding: 20px 50px 20px 10px;position: absolute;top: -20px;left: 75px;z-index: 1000;}
+.block-welcome{display: inline-block;color: white;background:#67c5d2; padding: 30px 90px 30px 30px;position: absolute;top: -20px;left: 75px;z-index: 1000;}
 .content{display: flex;align-items: center;margin-bottom: 50px;}
 .content-h2{margin-bottom: 20px}
 .content-img{margin-right:23px;max-width: 225px;width: 45%}
-.content-block-2{padding: 40px;margin-left: 10px;border:1px solid grey;margin-bottom: 10px;border-radius: 25px;min-height: 100%;}
+.content-block-2{padding: 40px;margin-left: 10px;border:1px solid grey;margin-bottom: 10px;border-radius: 25px;min-height:100%;}
 .content-block-2-img{width: 30%;padding: 10px;}
 .btn-secondary{margin-left: 150px;}
 .carusel-items-title{padding: 20px 100px 20px 50px;background: #67c5d2;display: inline-block;margin: 50px 10px 50px 75px;}
-.carusel-tems{}
 .footer{padding: 40px;margin: auto;}
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
@@ -41,13 +40,20 @@ body{background: grey;padding: 0;}
 
 @media (max-width:997px){
 .header-menu{border: none;}
+.header_logo {display:flex;padding: 5px;}
 .header-menu-block{display: none;}
-.menu-button{display:block;border:2px solid black;border-radius: 3px;padding:15px;position: absolute;top:55px;right: 80px;}
-.header-menu-block.open{z-index:1000; padding:0;display:block;position: absolute;right:-180px;top:18px;background: #grey; border:2px solid black;}
+.block-welcome{padding: 3px;left: 10px;top: -26px;}
+.menu-button{display:block;border:2px solid black;border-radius: 3px;padding:5px;position: absolute;top:60px;right: 79px;}
+.header-menu-block.open{z-index:1000; padding:0;display:block;position: absolute;right:-18px;top:35px;background: #grey; border:2px solid black;}
 .header-menu-block.open li{background: #000;margin:0;}
 .header-menu-block.open li a{ font-size: 15px;margin: 0px;background: white;color: black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
 .header-menu-block.open li a:hover,
 .header-menu-block.open li a:focus
-{ font-size: 35px;margin: 0px;background: black;color: white;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
+{ font-size: 19px;margin: 0px;background: black;color: white;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
+}
+@media (max-width:556px){
+.header_logo {display:block;}
+.content {display: block;align-items: center;margin-bottom: 0px;}
+
 }
 
