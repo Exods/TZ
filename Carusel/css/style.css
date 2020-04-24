@@ -15,14 +15,14 @@ body{background: grey;padding: 0; font-family: 'Roboto', sans-serif;}
 .header-menu-block-items a.active{color:black; border-bottom: 5px solid #09F;}
 .menu-button{display: none;}
 .img-computer{width: 100% \9;}
-.block-welcome{display: inline-block;color: white;background:#a37b7b; padding: 30px 115px 30px 35px;position: absolute;top: -20px;left: 40px;z-index: 1000;}
-.content{display: flex;align-items: center;margin-bottom: 50px;align-items: flex-start;}
-.content-h2{margin-bottom: 20px}
-.content-img{margin-right:23px;max-width: 225px;width: 45%;}
+.block-welcome{display: inline-block;color: white;background:#a37b7b; padding: 30px 115px 30px 35px;position: absolute;top: -35px;left: 40px;z-index: 1000;}
+.content{display: flex;align-items: center;margin-bottom: 100px;align-items: flex-start;}
+.content-h2{margin-bottom: 20px;text-transform: uppercase;}
+.content-img{margin-right:10px;max-width: 300px;width: 125%;}
 .content-block-2{padding: 40px;margin-left: 10px;border:1px solid grey;margin-bottom: 10px;border-radius: 25px;min-height:100%;}
 .content-block-2-img{width: 30%;padding: 10px;}
 .btn-secondary{margin-left: 150px;}
-p{line-height: 1.5;}
+p{line-height: 2.0;}
 .carusel-items-title{padding: 20px 200px 20px 50px;background: #67c5d2;display: inline-block;margin: 50px 10px 40px 15px;}
 .footer{padding: 40px;margin: auto;}
 .owl-theme .owl-controls .owl-page {display: inline-block;}
