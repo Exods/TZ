@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<title>Carusel</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/owl.carousel.css">
@@ -13,23 +12,24 @@
 </head>
 <body>
 	<div class="container-fluid container-fluid_custom bg-light">
-		<div class="row m-0">
-
-			<div class="col-12 header">
+		<div class="row m-0 ">
+			<nav class="col-12 header navbar-light navbar-expand-lg bg-light">
 				<div class="header_logo">
 					<img class="headrer-logo-img img-circle" src="img/logo.png" alt="logo">
 					<h3 class='header-logo-title'>CARUSEL SITE</h3>
 				</div>
-				<button class="menu-button" type="button"><span>Menu</span></button>
-				<div class="header-menu">
-					<ul class="header-menu-block">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#l" aria-controls="l" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="header-menu collapse navbar-collapse" id="l">
+					<ul class="navbar-nav header-menu-block">
 						<li class="header-menu-block-items"><a class="active" href="#">Home</a></li>
 						<li class="header-menu-block-items"><a href="#">Company</a></li>
 						<li class="header-menu-block-items"><a href="#">Services</a></li>
 						<li class="header-menu-block-items"><a href="#">Contact</a></li>
 					</ul>
 				</div>
-			</div>
+			</nav>
 		</div>
 		<div class="row m-auto">
 			<div class="col-12 p-0">
@@ -117,8 +117,8 @@
 			<span class="footer">Footer Carusel 2020</span>
 		</div>
 	</div>
-	<script src="js/jquery-2.4.1.slim.min.js"></script>
-	<script src="js/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/js.js"></script>
 </body>

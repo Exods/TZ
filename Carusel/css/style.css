@@ -1,11 +1,11 @@
 /* .red{ border:2px solid red; } */
 html{padding: 0;margin:0;}
 body{background: grey;padding: 0; font-family: 'Roboto', sans-serif;}
-
+.navbar-collapse { flex-grow: 0;}
 .container-fluid_custom{max-width: 1200px;margin-left: auto;margin-right: auto; padding: 0;}
 .header{justify-content: space-between;display: inline-flex;padding: 40px 20px 40px 45px;margin-left: auto;margin-right: auto;}
 .header_logo{display:inline-flex;padding:15px;}
-.headrer-logo-img{border-radius: 50%;width: 50px;height: 50px}
+.headrer-logo-img{border-radius: 50%;width: 70px;height: 45px}
 .header-logo-title{font-size: 28px;margin-top: 8px;margin-left: 5px; color:darkgrey;}
 .header-menu{border: 1px dotted grey; padding: 25px;display: inline-block;position: relative;top:20px;right: 40px;}
 .header-menu-block{list-style: none;display: inline;padding: 5px}
@@ -13,7 +13,6 @@ body{background: grey;padding: 0; font-family: 'Roboto', sans-serif;}
 .header-menu-block-items a{text-decoration:none;margin-left:33px; color: darkgrey;font-size: 19px;padding:25px;}
 .header-menu-block-items a:hover{color: #000;border-bottom: 5px solid #007bcc;}
 .header-menu-block-items a.active{color:black; border-bottom: 5px solid #007bcc;}
-.menu-button{display: none;}
 .img-computer{width: 100% \9;}
 .block-welcome{display: inline-block;color: white;background:#cc9999; padding: 30px 115px 30px 35px;position: absolute;top: -35px;left: 40px;z-index: 1000;}
 .content{display: flex;align-items: center;margin-bottom: 100px;align-items: flex-start;}
@@ -39,32 +38,35 @@ p{line-height: 2.0;color: #606060;}
 }
 
 @media (max-width:1038px){
-.header-menu-block-items a{margin-left: 25px;}
-.header-menu{padding: 20px;}
 
+.header-menu-block-items a{margin-left: 20px;}
+.header-menu{padding: 20px;}
+.header-menu-block{list-style: none;display: flex;padding: 0;}
+.header_logo{display: inline-flex;padding: 0;}
+
+}
+@media (max-width:1054px){
+
+.header-menu-block-items a{margin-left: 30px; padding: 0;}
+.header-menu{padding: 20px;right: 70px;}
+.header-menu-block{list-style: none;display: flex;padding: 0}
+.header_logo{display: inline-flex;padding: 0;}
 
 }
 
-@media (max-width:997px){
+@media (max-width:990px){
+.img-computer {margin-top: 100px;}
+.content{padding-right: 9px;}
+.header-logo-title {font-size: 15px;}
+.headrer-logo-img {border-radius: 50%;width: 50px;height: 30px;}
+.navbar-collapse { flex-grow: 0;}
+.header{display: flex;flex-flow: wrap;padding: 40px 20px 20px 45px;position: fixed;top: 0;right: 0;left: 0;z-index: 1030;}
 .header-menu{border: none;}
-.header_logo {display:flex;padding: 5px;}
-.header-menu-block{display: none;}
 .block-welcome{padding: 3px;left: 10px;top: -26px;}
-.menu-button{display:block;border:2px solid black;border-radius: 3px;padding:5px;position: absolute;top:60px;right: 79px;}
-.header-menu-block.open{z-index:1000; padding:0;display:block;position: absolute;right:-18px;top:35px;background: #grey; border:2px solid black;}
-.header-menu-block-items a.active{border-bottom: }
-.header-menu-block.open li{background: #000;margin:0;}
-.header-menu-block.open li a{ font-size: 15px;margin: 0px;background: white;color: black;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
-.header-menu-block.open li a:hover,
-.header-menu-block.open li a:focus
-{ font-size: 19px;margin: 0px;background: black;color: white;text-decoration: none;display: block;padding: 10px;font-size: 20px;}
-.btn-secondary{margin-left: 5px;}
-.header-menu-block-items a:hover,
-.header-menu-block-items a.active{border-bottom: none;}
 .col-lg-4_custom{margin-top: 10px;}
 }
 @media (max-width:556px){
-.header_logo {display:block;}
+.header_logo {display:flex;}
 .content {display: block;align-items: center;margin-bottom: 0px;}
 .carusel-items-title {padding: 8px 57px;background: #cc9999;display: inline-block;margin:12px 15px 5px 27px;}
 .btn-secondary {margin-left: 0;}
@@ -76,12 +78,11 @@ p{line-height: 2.0;color: #606060;}
 }
 @media (max-width:340px){
 .content-img {margin-bottom: 10px;max-width: 300px;width: 95%;}
-.header-logo-title {font-size: 30px;margin-top: 20px;margin-left: -7px;}
-.headrer-logo-img {width: 90px;height: 90px;}
+.header-logo-title {font-size: 18px;margin-top: 7px;margin-left: 5px;}
+.headrer-logo-img {width: 50px;height: 30px;}
 .carusel-items{margin-top: 15px;}
 .container-fluid{min-width: 340px;}
-.header-menu-block-items a:hover,
-.header-menu-block-items a.active{border-bottom: none;}
+
 
 }
 
