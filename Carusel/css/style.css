@@ -5,13 +5,13 @@ body{background: grey;padding: 0; font-family: 'Roboto', sans-serif;}
 .container-fluid_custom{max-width: 1200px;margin-left: auto;margin-right: auto; padding: 0;}
 .header{justify-content: space-between;display: inline-flex;padding: 40px 20px 40px 45px;margin-left: auto;margin-right: auto;}
 .header_logo{display:inline-flex;padding:15px;}
-.headrer-logo-img{border-radius: 50%;width: 70px;height: 45px}
+.headrer-logo-img{width: 70px;height: 45px}
 .header-logo-title{font-size: 28px;margin-top: 8px;margin-left: 5px; color:darkgrey;}
 .header-menu{border: 1px dotted grey; padding: 25px;display: inline-block;position: relative;top:20px;right: 40px;}
 .header-menu-block{list-style: none;display: inline;padding: 5px}
 .header-menu-block-items{display: inline;}
 .header-menu-block-items a{text-decoration:none;margin-left:33px; color: darkgrey;font-size: 19px;padding:25px;}
-.header-menu-block-items a:hover{color: #000;border-bottom: 5px solid #007bcc;}
+.header-menu-block-items a:hover,
 .header-menu-block-items a.active{color:black; border-bottom: 5px solid #007bcc;}
 .img-computer{width: 100% \9;}
 .block-welcome{display: inline-block;color: white;background:#cc9999; padding: 30px 115px 30px 35px;position: absolute;top: -35px;left: 40px;z-index: 1000;}
@@ -61,9 +61,12 @@ p{line-height: 2.0;color: #606060;}
 .headrer-logo-img {border-radius: 50%;width: 50px;height: 30px;}
 .navbar-collapse { flex-grow: 0;}
 .header{display: flex;flex-flow: wrap;padding: 40px 20px 20px 45px;position: fixed;top: 0;right: 0;left: 0;z-index: 1030;}
-.header-menu{border: none;}
+.header-menu{border: none;padding:0;}
+.header-menu-block{padding:0 0 0 5px;}
 .block-welcome{padding: 3px;left: 10px;top: -26px;}
 .col-lg-4_custom{margin-top: 10px;}
+.header-menu-block-items a:hover,
+.header-menu-block-items a.active{border-bottom: none;}
 }
 @media (max-width:556px){
 .header_logo {display:flex;}
@@ -73,8 +76,7 @@ p{line-height: 2.0;color: #606060;}
 .content-block-2 {padding: 20px;margin-left: 10px;border: 1px solid grey;margin-bottom: 10px;border-radius: 25px;    min-height: 100%;}
 .content-img {margin-bottom: 10px;max-width: 480px;width: 100%;border-radius: 10px;}
 .carusel-items{margin-top: 15px;}
-.header-menu-block-items a:hover,
-.header-menu-block-items a.active{border-bottom: none;}
+
 }
 @media (max-width:340px){
 .content-img {margin-bottom: 10px;max-width: 300px;width: 95%;}
@@ -85,4 +87,3 @@ p{line-height: 2.0;color: #606060;}
 
 
 }
-
