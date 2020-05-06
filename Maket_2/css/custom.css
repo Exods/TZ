@@ -1,3 +1,20 @@
 body{margin:0;padding: 0;box-sizing: border-box;}
 
 
+/* conteiner */
+
+/* header */
+
+.header{width: 100%;padding: 33px 20px;}
+
+
+/* header-menu */
+
+.header-menu{justify-content: flex-end;}
+.header-menu-items{text-transform: uppercase;}
+.header-menu-items-item{}
+.home-menu-link{display: none;}
+.header-link-a{text-decoration: none; margin-left: 40px; background: none;font-family: 'Roboto', sans-serif;font-size: 16px;color: black}
+.active-link{color none;color: #ed8595;}
+.header-link-a:hover{text-decoration: none;color: #ed8595 }
+
