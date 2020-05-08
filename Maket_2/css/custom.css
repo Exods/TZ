@@ -37,10 +37,17 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-service-box{width: 310px;height: 230px;margin:0 0 50px;display: flex;flex-direction: column ;align-items: center; justify-content: center;}
 .block-service-box p{color:#8b7a8a ;}
 
-/* text-block */
+/* block-2 */
 
 .block-2{padding:0 50px;height: 600px;background: #f5f5f3;}
 .block-2-img{width: 50%;}
 .block-2 h2{font-size: 49px;font-weight: 900}
 .block-2-text{width: 50%;display: flex;flex-direction: column;align-items: center;padding: 80px 0;}
+
+/* block-3 */
+
+.block-3{padding: 0 350px;}
+.block-3-conteiner{width: 400px;height: 120px;justify-content: space-between ;}
+.block-3-conteiner img{width: 50px;height: 50px;border-radius: 220px;}
+.block-3-conteiner-items{display: flex;flex-direction: column;align-items: center;}
 
