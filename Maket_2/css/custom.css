@@ -40,18 +40,22 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 /* block-2 */
 
-.block-2{padding:0 65px;height: 600px;}
-.block-2-img{width: 50%;}
+.block-2{padding:0 50px;height: 600px;}
+.block-2-img-conteiner{width: 100%;height: 100%;}
 .block-2 h2{font-size: 49px;font-weight: 900}
-.block-2-text{width: 50%;display: flex;flex-direction: column;align-items: center;padding: 80px 0;}
+.block-2-text{width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;padding: 80px 0;}
 
 /* block-3 */
 
-.block-3{padding:0 120px;max-width: 980;}
-.block-3-conteiner{padding: 20px;margin-top: 30px;}
+.block-3{padding:0 120px; margin-bottom: 80px;}
+.block-3-conteiner{ padding: 20px;margin-top: 30px;}
 .block-3-conteiner img{width: 80px;height: 80px;border-radius: 220px;}
 .block-3-conteiner-items{display: flex;flex-direction: column;align-items: center;}
 
 /* blok-4 */
-.blok-4{padding: 0 65px;}
+.block-4{height: 620px;padding: 0 120px;}
+.block-4-conteiner{}
+.block-4-conteiner h2{color: white;}
+.block-4-content{display: flex;flex-direction: column;align-items: center; height:300px;}
+.block-4-content h2{color: black;}
 
