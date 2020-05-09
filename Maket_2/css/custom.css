@@ -52,3 +52,6 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-3-conteiner img{width: 80px;height: 80px;border-radius: 220px;}
 .block-3-conteiner-items{display: flex;flex-direction: column;align-items: center;}
 
+/* blok-4 */
+.blok-4{padding: 0 65px;}
+
