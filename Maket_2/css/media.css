@@ -1,5 +1,18 @@
 
 
-@media (max-width:776px){
+@media (max-width:989px){
+
+
+
+.service{padding: 0 80px 80px;}
+.header-menu-items{text-transform: uppercase;margin-right: 0px;align-items: baseline;}
+}
+
+@media (max-width:556px){
+.block-3 {padding: 0 80px;}
+
+
+
 
 }
+
