@@ -1,4 +1,4 @@
-.red{border:1px solid red;}
+/* .red{border:1px solid red;} */
 
 
 body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
@@ -13,7 +13,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 /* header-menu */
 
-.header-menu{justify-content: flex-end;margin-right: -55px}
+.header-menu{justify-content: flex-end;margin-right: -45px}
 .header-menu-items{text-transform: uppercase;}
 .header-menu-items-item{}
 .home-menu-link{display: none;}
@@ -23,20 +23,21 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 /*  welcome-img */
 
-.welcome-img{width: 100%;height:700px;}
-.welcome-img-title{padding: 49px;width: 600px;position: absolute;top: 200px;left: 30px;}
-.welcome-h2{color: #ffffff;font-size: 40px;}
-.welcome-img-title-p{color: #cccccc;font-size: 14px;margin:18px 0;line-height: 2}
+.welcome-img{height:700px; background-image: url(../img/fon.jpg); width: 100% \9; background-size: cover;}
+.welcome-img-title{padding: 49px;width: 665px;position: absolute;top: 200px;left: 30px;}
+.welcome-h2{color: #ffffff;font-size: 52px;}
+.welcome-img-title-p{color: #cccccc;font-size: 17px;margin:18px 0;line-height: 2}
 .welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 13px 26px;font-weight: 600;font-size: 14px}
 
 /* block-service */
 
-.service{padding: 0 15px 80px;display: flex;justify-content: center;}
+.service{padding: 0 15px 55px;display: flex;justify-content: center;}
 .block-service-h2{width: 100%;margin-top: 100px;font-weight: bold;}
 .service-title-h2{color: #4c4c4c;font-size: 50px;font-weight: 900}
 .service-line{height: 4px;background: #b83e3e;width: 100px;display: block;margin:0 auto 40px auto;}
-.block-service-box{height: 200px;margin-top:30px;display: flex;flex-direction: column ;align-items: center; justify-content: center;}
-.block-service-box p{color:#8b7a8a ;}
+.block-service-box{height: 200px;margin-top:0px;display: flex;flex-direction: column ;align-items: center; justify-content: center;}
+.block-service-box p{color:#8b7a8a ;padding: 0 10px;text-align: center;}
+.block-service-box img{}
 
 /* block-2 */
 
