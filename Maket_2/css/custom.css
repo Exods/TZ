@@ -52,9 +52,10 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-3{padding:0 110px; margin-bottom: 80px;}
 .block-3-conteiner{ padding: 20px;margin-top: 30px;height: 200px;background: #e64e4e;}
 .block-3-conteiner img{width: 200px;height: 200px;border-radius: 220px;}
+.block-3-conteiner h3, p{color: #fcffff}
 .block-3-conteiner-items{display: flex;flex-direction: column;align-items: center;}
-.block-3-left{ align-items: flex-start;display: flex;flex-direction: column;justify-content: center;}
-.block-3-right{ align-items: flex-end;display: flex;flex-direction: column;justify-content: center;}
+.block-3-left{ align-items: flex-start;display: flex;flex-direction: column;justify-content: center;padding:50px 140px 50px 77px;}
+.block-3-right{ display: flex;flex-direction: column;justify-content: center;padding:50px 77px 50px 140px;}
 .left {position: absolute; left: -80px;top: 30px;}
 .right{position: absolute; right: -80px;top: 30px;}
 
