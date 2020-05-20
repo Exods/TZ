@@ -68,7 +68,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4-content h2{color: black;}
 .block-4-content p{color: #7a8ab0;font-size: 18px;text-align: center;line-height: 1.5;}
 .block-4-content-quotes{position: absolute;left: 40px;top: 40px;}
-.block-4-content-avatar{position: absolute;bottom: 5px;}
+.block-4-content-avatar{position: absolute;bottom: 5px;box-shadow:0 0 20px #9b8787;}
 
 /* block-5 */
 .block-5{padding:0 15px; margin-bottom: 80px;}
