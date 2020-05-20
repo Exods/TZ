@@ -5,7 +5,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 
 /* conteiner */
-.container-fluid_custom{width: 1250px;margin-left: auto;margin-right: auto;}
+.container-fluid_custom{max-width: 1250px;margin-left: auto;margin-right: auto;}
 /* header */
 
 .header{width: 100%;padding: 33px 120px;}
@@ -64,7 +64,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4{height: 620px;padding: 0 15px; background-image: url(../img/block-4.jpeg);width: 100% \9; background-size: cover;}
 .block-4-conteiner{}
 .block-4-conteiner h2{color: white;margin-top: -25px;}
-.block-4-content{display: flex;flex-direction: column;align-items: center; height:300px;border-radius: 15px;padding: 100px 70px 65px;}
+.block-4-content{background: white; ;display: flex;flex-direction: column;align-items: center; height:300px;border-radius: 15px;padding: 100px 70px 65px;}
 .block-4-content h2{color: black;}
 .block-4-content p{color: #7a8ab0;font-size: 18px;text-align: center;line-height: 1.5;}
 .block-4-content-quotes{position: absolute;left: 40px;top: 40px;}
