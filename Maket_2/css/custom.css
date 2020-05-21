@@ -20,6 +20,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .header-link-a{text-decoration: none; margin-left: 45px; background: none;font-size: 16px;color: black}
 .active-link{color: #ed8595;}
 .header-link-a:hover{text-decoration: none;color: #ed8595 }
+.dropdown-menu{position: absolute;left:-50px!important;}
+.dropdown-item:hover{text-decoration: none;color: #ed8595 }
 
 /*  welcome-img */
 
