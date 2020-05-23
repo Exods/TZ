@@ -117,7 +117,6 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .service-title-h2{font-size: 40px;}
 .block-service-box{margin-top: 0;height: 150px;}
 .block-5-content-img-title {height: 240px;margin-top: 30px;}
-/* .dropdown-item{right: 0!important;margin: 10px!important;display: flex!important;justify-content: flex-end!important} */
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
@@ -138,7 +137,6 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .header-link-a{margin-left: 0px;}
 
 
-/* .dropdown-menu {position: absolute;left: -100px!important;} */
 .block-3-conteiner img{display: none}
 .block-3-conteiner{align-items: center;}
 .welcome-img{height: 610px}
@@ -175,7 +173,6 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .welcome-img-title-btn {padding: 3px 13px;font-size: 10px;margin-top: 0;}
 .block-3-right {align-items: center;justify-content: center;}
 .block-3-left {align-items: center;justify-content: center;}
-/* .dropdown-menu {position:absolute;left: -30px!important;background: #f8f9fa!important;} */
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
@@ -215,8 +212,6 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-2{padding:0 20px;height: 645px;margin-top: 40px;}
 .welcome-img-title{padding: 15px}
 .welcome-img-title-btn {padding: 5px 10px;}
-/* .dropdown-menu {position: absolute;left: 0px!important;} */
-/* .dropdown-item{right: 0!important;margin: 10px!important;display: flex!important;justify-content: flex-end!important} */
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -6px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
