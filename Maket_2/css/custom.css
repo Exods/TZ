@@ -30,12 +30,12 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .welcome-img-title{padding: 49px;width: 665px;position: absolute;top: 200px;left: 30px;}
 .welcome-h2{color: #ffffff;font-size: 52px;}
 .welcome-img-title-p{color: #ffffff;font-size: 17px;margin:18px 0;line-height: 1.7}
-.welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 15px 26px;font-weight: 600;font-size: 14px;margin-top: 25px;}
+.welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 16px 32px;font-weight: 600;font-size: 14px;margin-top: 25px;}
 
 /* block-service */
 
 .service{padding: 0 15px 55px;display: flex;justify-content: center;}
-.block-service-h2{width: 100%;margin-top: 65px;font-weight: bold; text-align: center}
+.block-service-h2{width: 100%;margin-top: 80px;font-weight: bold; text-align: center}
 .service-title-h2{color: #4c4c4c;font-size: 50px;font-weight: 900}
 .service-line{height: 4px;background: #b83e3e;width: 100px;display: block;margin:0 auto 40px auto;}
 .block-service-box{height: 200px;margin-top:40px;display: flex;flex-direction: column ;align-items: center; justify-content: center;}
