@@ -13,7 +13,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 /* header-menu */
 
-.header-menu{justify-content: flex-end;margin-right: -25px}
+.header-menu{justify-content: flex-end;margin-right: -35px}
 .header-menu-items{text-transform: uppercase;}
 .header-menu-items-item{}
 .home-menu-link{display: none;}
