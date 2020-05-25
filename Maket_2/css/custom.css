@@ -29,7 +29,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .welcome-img{height:700px; background-image: url(../img/fon.jpg); width: 100% \9; background-size: cover;}
 .welcome-img-title{padding: 49px;width: 665px;position: absolute;top: 200px;left: 30px;}
 .welcome-h2{color: #ffffff;font-size: 52px;}
-.welcome-img-title-p{color: #cccccc;font-size: 17px;margin:18px 0;line-height: 2}
+.welcome-img-title-p{color: #ffffff;font-size: 17px;margin:18px 0;line-height: 1.7}
 .welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 15px 26px;font-weight: 600;font-size: 14px;margin-top: 25px;}
 
 /* block-service */
