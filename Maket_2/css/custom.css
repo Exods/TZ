@@ -163,9 +163,9 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
    /* padding */
 .footer-padding{padding:0 0px;}
 .block-4{height: 620px;padding: 0 0px;}
-.block-5{padding:0 20px; margin-bottom: 80px;}
+.block-5{padding:0 ; margin-bottom: 80px;}
 .block-5-conteiner h2{margin-top: 10px;}
-.block-3{padding:0 10px; margin-bottom: 20px;}
+.block-3{padding:0 ; margin-bottom: 20px;}
 .block-3-conteiner{margin-top: 20px;height: 250px;}
 .block-2{padding:0 20px;height: auto;}
 .block-2-text{padding: 10px;}
