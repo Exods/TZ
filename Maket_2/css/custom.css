@@ -21,7 +21,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .active-link{color: #ed8595;}
 .header-link-a:hover{text-decoration: none;color: #ed8595 }
 .dropdown-item {display: block;width: 100%; padding: 6px 10px!important;}
-.dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:0;left: -10px!important;}
+.dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:0;left: -10px!important;    box-shadow: -1px 1px 20px;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
 
 /*  welcome-img */
@@ -92,20 +92,22 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 /* @MEDIA */
 
 
-@media (max-width:989px){
+@media (max-width:995px){
 .container-fluid_custom{max-width: 989px}
+.header-menu {justify-content: flex-end;margin-right: -19px;margin-top: 15px;}
 .header{padding: 33px 60px}
+.header-link{margin-top: 10px;}
 .service{padding: 0 0px 40px;}
 .header-menu-items{text-transform: uppercase;margin-right: 20px;/* align-items: baseline; */}
 .footer-padding{padding:0 0px;}
 .block-3-conteiner img{width: 150px;height: 150px;}
-.left{left: 225px;top:-10px;}
-.right{left: 225px;top:-10px;}
+.left{left: auto;top:-10px;}
+.right{right:auto;top:-10px;}
 .block-4{height: 620px;padding: 0 0px;}
 .block-5{padding:0 0px; margin-bottom: 80px;}
 .block-5-color-p{padding: 10px 25px;}
 .block-3{padding:0; margin-bottom: 25px;}
-.block-2{padding:0 ;height: 515px;margin-bottom: 10px;}
+.block-2{padding:0 ;height: 590px;margin-bottom: 10px;}
 .block-2-text{padding: 20px 15px 20px;}
 .block-2-text-h3{font-size: 24px;}
 .block-2-text-p{font-size: 15px;}
@@ -115,7 +117,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-3-right{align-items: center;justify-content: flex-end;}
 .welcome-img-title-btn{padding: 10px 20px;}
 .service-title-h2{font-size: 40px;}
-.block-service-box{margin-top: 0;height: 150px;}
+.block-service-box{margin-top: 20px;height: 150px;}
 .block-5-content-img-title {height: 240px;margin-top: 30px;}
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
@@ -123,7 +125,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 
 }
-@media  (max-width:768px){
+@media (max-width:768px) {
 .container-fluid_custom{max-width: 768px}
    /* padding */
 .header-menu {margin-right: -20px;}
@@ -138,13 +140,13 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 
 
 /* .block-3-conteiner img{display: none} */
-.block-3-conteiner{align-items: center;}
+.block-3-conteiner{align-items: center;height: 200px;}
 .welcome-img{height: 610px}
 .welcome-img-title{padding: 35px;width: 480px;}
 .welcome-h2 { color: #ffffff;font-size: 35px;}
 .block-service-h2{margin-top: 10px;}
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
-.dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: 0!important;}
+.dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 }
 
 
@@ -153,16 +155,18 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .container-fluid_custom{max-width: 600px}
 .block-3 {padding: 0 80px;}
 .welcome-img-title{padding: 20px;width: 405px; left: 7%;}
-.block-2 h2 {font-size: 19px;font-weight: 900;}
+/* .block-2 h2 {font-size: 19px;font-weight: 900;} */
 .block-service-h2 {width: 100%;margin-top: 5px;font-weight: bold;}
 .service-title-h2 {color: #4c4c4c;font-size: 40px;font-weight: 900;}
+.block-2-text-h3 {font-size: 30px;}
    /* padding */
 .footer-padding{padding:0 0px;}
 .block-4{height: 620px;padding: 0 0px;}
 .block-5{padding:0 20px; margin-bottom: 80px;}
+.block-5-conteiner h2{margin-top: 10px;}
 .block-3{padding:0 90px; margin-bottom: 20px;}
-.block-3-conteiner{margin-top: 20px;}
-.block-2{padding:0 20px;height: 930px;}
+.block-3-conteiner{margin-top: 20px;height: 250px;}
+.block-2{padding:0 20px;height: auto;}
 .block-2-text{padding: 10px;}
 .welcome-img {height: 450px;}
 .welcome-img-title{padding: 15px;top: 130px;}
@@ -171,8 +175,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .header-link-a{margin-left: 0px;}
 .service-line {margin-bottom: 20px;}
 .welcome-img-title-btn {padding: 3px 13px;font-size: 10px;margin-top: 0;}
-.block-3-right {align-items: center;justify-content: center;}
-.block-3-left {align-items: center;justify-content: center;}
+.block-3-right {align-items: center;justify-content: flex-end;}
+.block-3-left {align-items: center;justify-content: flex-end;}
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
@@ -187,13 +191,15 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .service { padding: 0 5px 0px;}
 .service-title-h2{font-size: 30px;}
 .block-2 {padding: 0 20px;height: 930px;}
-.block-3 {padding: 0 20px;margin-bottom: 50px;margin-top: 90px;}
+.block-3 {padding: 0 20px;margin-bottom: 50px;margin-top: 40px;}
+.block-3-conteiner{height: 240px;}
 .block-3-conteiner h2{font-size: 26px;}
-.block-3-conteiner img{display: none}
+.block-3-conteiner img{margin-top: 20px;width: 130px;height: 130px}
 .block-4{padding: 20px 20px;}
 .block-4-content {height: 200px;}
 .block-5 {padding: 0 10px;margin-bottom: 20px;}
 .block-5-content{height: 650px;margin-bottom: 20px;}
+.block-5-conteiner h2{margin-top: 10px;}
 .header{padding: 33px 35px 33px 0}
 .block-2-img-conteiner { width: 100%;height: 100%;margin: 20px 0;}
 .footer-padding {padding: 0 10px;}
@@ -210,7 +216,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4{height: 620px;padding: 0 5px;}
 .block-5{padding:0 ; margin-bottom: 30px;}
 .block-3{padding:0 ; margin-bottom: 30px;}
-.block-2{padding:0 20px;height: 645px;margin-top: 40px;}
+.block-2{padding:0 20px;height: auto;margin-top: 40px;}
 .welcome-img-title{padding: 15px}
 .welcome-img-title-btn {padding: 5px 10px;}
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
