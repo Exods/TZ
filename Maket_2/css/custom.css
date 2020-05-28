@@ -30,25 +30,25 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .welcome-img-title{padding: 49px;width: 665px;position: absolute;top: 200px;left: 30px;}
 .welcome-h2{color: #ffffff;font-size: 52px;}
 .welcome-img-title-p{color: #ffffff;font-size: 17px;margin:18px 0;line-height: 1.7}
-.welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 16px 32px;font-weight: 600;font-size: 14px;margin-top: 25px;}
+.welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 16px 32px;font-weight: 600;font-size: 14px;margin-top: 5px;}
 
 /* block-service */
 
 .service{padding: 0 0 55px;display: flex;justify-content: center;}
 .block-service-h2{width: 100%;margin-top: 80px;font-weight: bold; text-align: center}
 .service-title-h2{color: #4c4c4c;font-size: 50px;font-weight: 900}
-.service-line{height: 4px;background: #b83e3e;width: 100px;display: block;margin:0 auto 80px auto;}
+.service-line{height: 4px;background: #b83e3e;width: 100px;display: block;margin:0 auto 30px auto;}
 .block-service-box{height: 200px;margin-top:40px;display: flex;flex-direction: column ;align-items: center; justify-content: center;}
 .block-service-box p{color:#8b7a8a ;padding: 0 10px;text-align: center;}
 .block-service-box img{}
 
 /* block-2 */
 
-.block-2{padding:0;height: 635px;background: #f5f5f3;margin-bottom: 175px;}
+.block-2{padding:0;height: 600px;background: #f5f5f3;}
 .block-2-img-conteiner{width: 100%;height: 100%;}
 .block-2-text-h3{font-size: 49px;font-weight: 900}
 .block-2-text{width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;padding: 80px 0 50px 50px;color: #4c4c4c;}
-.block-2-text-p{color: #7a7a7a}
+.block-2-text-p{color: #7a7a7a;margin-bottom: 45px;}
 
 
 /* block-3 */
@@ -133,11 +133,12 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4{height: 620px;padding: 0 0px;}
 .block-5{padding:0 ; margin-bottom: 80px;}
 .block-3{padding:0 ; margin-bottom: 80px;}
-.block-2{padding:0 ;height: 600px;}
+.block-2{padding:0 ;height: 395px;}
+.block-2-text-p {margin-bottom: 10px}
 .welcome-img-title{padding: 0px}
 .header {width: 100%;padding: 33px 35px;}
 .header-link-a{margin-left: 0px;}
-.block-3-conteiner img{width: 110px;height: 110px;}
+.block-3-conteiner img{width: 110px;height: 110px;margin-top: 20px;}
 
 
 /* .block-3-conteiner img{display: none} */
