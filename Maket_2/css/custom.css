@@ -199,6 +199,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 }
 
 @media (min-width:310px)and (max-width:576px){
+.service-line{margin-bottom: 0;}
 .container-fluid_custom{width: 320px}
 .welcome-img{height: 460px;}
 .welcome-h2{font-size: 20px;}
@@ -209,7 +210,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-3 {padding: 0 20px;margin-bottom: 50px;margin-top: 40px;}
 .block-3-conteiner{height: 240px;}
 .block-3-conteiner h2{font-size: 26px;}
-.block-3-conteiner img{margin-top: 0px;width: 130px;height: 130px}
+.block-3-conteiner img{margin-top: 10px;width: 130px;height: 130px}
 .block-4{padding: 20px 20px;}
 .block-4-content {height: 200px;}
 .block-5 {padding: 0 10px;margin-bottom: 20px;flex-wrap: wrap; flex-direction: column;align-items: center;}
@@ -223,7 +224,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .header-link-a{margin-left: 5px;}
 .block-service-box img {width: 50px; margin-top: 30px;}
 .block-service-box{text-align: center;height: 220px}
-.block-2-text {padding: 10px;margin-bottom: 30px;}
+.block-2-text {padding: 10px;margin-bottom: 30px;margin-top: 20px;}
 .block-service-h2{margin-top: 30px;}
 
 
