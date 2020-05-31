@@ -1,6 +1,6 @@
 $(function(){
   $('.bxslider').bxSlider({
-    mode: 'fade',
+    mode: 'horizontal',
     captions: false,
     slideWidth: 1250,
     adaptiveHeight:true,
@@ -11,5 +11,3 @@ $(function(){
     prevText: '<img src="img/PREV.png">'
   });
 });
-
-
