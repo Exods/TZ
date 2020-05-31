@@ -37,9 +37,9 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .bxslider{height: 100%}
 .bx-wrapper .bx-prev:hover{opacity: 1}
 .bx-wrapper .bx-prev { left: 10px;background: none;opacity: 0.6;}
-.bx-wrapper .bx-next:hover{opacity: 1}
+.bx-wrapper .bx-next:hover{opacity: 1;}
 .bx-wrapper .bx-next {right: 10px;background:none;opacity: 0.6;}
-.bx-wrapper .bx-controls-direction a {width: 25px}
+.bx-wrapper .bx-controls-direction a {width: 25px;z-index: 1029;}
 
 
 
@@ -232,7 +232,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .container-fluid_custom{width: 320px}
 .welcome-img{height: 460px;}
 .welcome-h2{font-size: 20px;}
-.welcome-img-title {padding: 20px; width: 280px;left: 20px; top:130px}
+.welcome-img-title {padding: 20px; width: 260px;left: 20px; top:130px}
 .service { padding: 0 ;}
 .service-title-h2{font-size: 30px;}
 .block-2 {padding: 0 20px;height: 930px;}
