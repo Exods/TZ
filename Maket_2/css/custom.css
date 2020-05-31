@@ -105,6 +105,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .bx-wrapper .bx-pager {bottom: 25px!important;}
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{background: red!important;}
 .bx-wrapper .bx-pager.bx-default-pager a { background: white!important;}
+.bx-wrapper .bx-pager.bx-default-pager a { background: #666;text-indent: -9999px;display: block;width: 15px;height: 15px;margin: 0 5px;outline: 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 8px;opacity: 0.8}
 
 /* @MEDIA */
 
