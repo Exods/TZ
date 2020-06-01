@@ -33,7 +33,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .welcome-h2{color: #ffffff;font-size: 52px;}
 .welcome-img-title-p{color: #ffffff;font-size: 17px;margin:18px 0;line-height: 1.7}
 .welcome-img-title-btn{text-transform: uppercase;color: #cccccc;background: #e64e4e;border:none;padding: 16px 32px;font-weight: 600;font-size: 14px;margin-top: 5px;}
-.bx-wrapper {-moz-box-shadow: 0 0 5px #ccc;margin-bottom: 0!important;-webkit-box-shadow: none!important; box-shadow: none!important;border: 5px solid #fff;background: #fff;}
+.bx-wrapper {-moz-box-shadow: 0 0 5px #ccc;margin-bottom: 0!important;-webkit-box-shadow: none!important; box-shadow: none!important;border: 5px solid #fff;background: #fff;margin: 0 -20px;}
 .bxslider{height: 100%}
 .bx-wrapper .bx-prev:hover{opacity: 1}
 .bx-wrapper .bx-prev { left: 10px;background: none;opacity: 0.4;}

@@ -2,7 +2,7 @@ $(function(){
   $('.bxslider').bxSlider({
     mode: 'fade',
     captions: false,
-    slideWidth: 1250,
+    slideWidth: 1270,
     adaptiveHeight:true,
     responsive:true,
     pager:true,
