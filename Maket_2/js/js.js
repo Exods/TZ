@@ -15,6 +15,8 @@ $(function(){
      slidesToShow: 2,
      slidesToScroll: 2,
      adaptiveHeight:true,
+     nextArrow: '<img class="next" src="img/NEXT2.png">',
+     prevArrow: '<img class="prev" src="img/PREV2.png">',
      responsive: [
       {
         breakpoint: 768,
