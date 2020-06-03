@@ -10,4 +10,21 @@ $(function(){
     nextText: '<img src="img/NEXT.png">',
     prevText: '<img src="img/PREV.png">'
   });
+  $('.slider').slick({
+     infinite: true,
+     slidesToShow: 2,
+     slidesToScroll: 2,
+     adaptiveHeight:true,
+     responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          infinite: true,
+          slidesToScroll: 1,
+          adaptiveHeight:true
+        }
+      }
+    ]
+  });
 });
