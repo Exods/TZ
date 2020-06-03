@@ -83,7 +83,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4-conteiner h2{color: white;margin-top: -25px;}
 .block-4-content{background: white;width: 540px ;display: flex;flex-direction: column;align-items: center; height:300px;border-radius: 15px;padding: 100px 70px 65px;}
 .block-4-content h2{color: black;}
-.block-4-content p{color: #7a8ab0;font-size: 18px;text-align: center;line-height: 1.5;}
+.block-4-content p{color: #7a8ab0;font-size: 18px;text-align: center;line-height: 1.5; overflow: hidden;}
 .block-4-content-quotes{position: absolute;left: 40px;top: 40px;}
 .block-4-content-avatar{margin-left: 220px;margin-top: -65px;box-shadow:0 0 20px #9b8787;}
 .slick-prev {left: -5px;}
