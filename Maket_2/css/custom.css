@@ -93,8 +93,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .slick-prev,
 .slick-next {z-index: 5;top: 38%;}
 .slick-list {overflow-y: visible;}
-.prev {position: absolute;z-index: 1;top: 33%;}
-.next {position: absolute;z-index: 1;top: 33%; right: 1px}
+.prev {position: absolute;z-index: 1;top: 38%;}
+.next {position: absolute;z-index: 1;top: 38%; right: 1px}
 
 /* block-5 */
 .block-5{padding:0 ;margin-top: 40px; margin-bottom: 80px;display: flex;flex-wrap: nowrap;height: 100%;justify-content: space-between;}
@@ -144,7 +144,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4-margin{margin: 0 30px;}
 .block-4-content {width: 385px}
 .slick-next {right: 15px;}
-.block-4-content-avatar { margin-left: 140px; margin-top: -15px;}
+.block-4-content-avatar { margin-left: 140px; margin-top: -70px;}
    .block-5-content{max-width: 310px;}
 .block-5{padding:0 0px; margin-bottom: 80px;}
 .block-5-color-p{padding: 10px 25px;}
@@ -164,8 +164,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
-.next {position: absolute;z-index: 1;top: 33%; right: -17px}
-.prev {position: absolute;z-index: 1;top: 33%;left: -5px}
+.next {position: absolute;z-index: 1;top: 38%; right: -17px}
+.prev {position: absolute;z-index: 1;top: 38%;left: -5px}
 
 }
 @media (min-width:768px)and (max-width:985px) {
@@ -178,7 +178,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4-content {width: 345px;}
 .block-4-margin{margin: 0 30px;}
 .block-4-content p {font-size: 15px}
-.block-4-content-avatar {margin-left: 125px;margin-top: -30px;}
+.block-4-content-avatar {margin-left: 125px;margin-top: -70px;}
 .block-5{padding:0 ; margin-bottom: 80px;}
 .block-5-content{max-width: 236px;}
 .block-3{padding:0 ; margin-bottom: 0px;}
@@ -199,8 +199,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 
-.next {position: absolute;z-index: 1;top: 33%; right: -10px}
-.prev {position: absolute;z-index: 1;top: 33%;left: -5px}
+.next {position: absolute;z-index: 1;top: 38%; right: -10px}
+.prev {position: absolute;z-index: 1;top: 38%;left: -5px}
 
 }
 
@@ -242,8 +242,8 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .dropdown-item {display: block;width: 100%; padding: 6px!important;}
 .dropdown-menu {position: absolute;min-width: 0!important;background-clip: padding-box;border:none;padding:13px;left: -23px!important;}
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
-.next {position: absolute;z-index: 1;top: 33%; right: -10px}
-.prev {position: absolute;z-index: 1;top: 33%;left: -5px}
+.next {position: absolute;z-index: 1;top: 38%; right: -10px}
+.prev {position: absolute;z-index: 1;top: 38%;left: -5px}
 
 
 }
@@ -254,7 +254,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 }
 }
 
-@media (min-width:310px)and (max-width:576px){
+@media (min-width:310px)and (max-width:577px){
 .bx-wrapper .bx-controls-direction a {width: 20px;top: 58%!important;}
 .bx-wrapper .bx-controls-direction a :hover{opacity: 1}
 .bx-wrapper .bx-pager.bx-default-pager a {width: 8px;height: 8px}
@@ -277,7 +277,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-4-content-quotes {position: absolute;left: 20px;top: 20px;width: 30px;}
 .block-4-content-avatar {margin-left: 80px;margin-top: -63px;}
 .block-4-content p {color: #7a8ab0; font-size: 14px;}
-   .block-5 {padding: 0 10px;margin-bottom: 20px;flex-wrap: wrap; flex-direction: column;align-items: center;}
+.block-5 {padding: 0 10px;margin-bottom: 20px;flex-wrap: wrap; flex-direction: column;align-items: center;}
 .block-5-content{height: 650px;margin-bottom: 30px;}
 .block-5-conteiner h2{margin-top: 10px;}
 .header{padding: 33px 35px 33px 0}
