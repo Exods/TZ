@@ -1,4 +1,4 @@
-/* .red{border:1px solid red;} */
+ .red{border:1px solid red;}
 
 
 body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
@@ -105,7 +105,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .block-5-content-img-clock{width: 19px;height: 19px;}
 .block-5-content-date-p{text-transform: uppercase;color: black;}
 .block-5-color-p{color: #9a9a9a; text-align: center;line-height: 1.5;font-size: 18px;padding: 0 25px;margin-top: 15px;}
-.block-5-content h4{padding: 0 10px;font-size: 20; text-align: center;}
+.block-5-content h4{padding: 0 10px;font-size: 20px; text-align: center;}
 /* footer */
 .footer-padding{padding:0}
 .footer{padding: 15px;background: #e64e4e;}
@@ -113,7 +113,7 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 /* padding */
 .padding{margin-right: -30px;
     margin-left: -30px;}
-    */
+
 .bx-wrapper .bx-controls-direction a{top: 70%!important;}
 .bx-wrapper .bx-pager {bottom: 25px!important;}
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{background: red!important;}
@@ -312,4 +312,4 @@ body{margin:0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-seri
 .dropdown-item:hover, active{text-decoration: none;color: #ed8595;background-color: white;}
 
 
-}
+
