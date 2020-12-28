@@ -1,0 +1,32 @@
+html {font-family: 'Open Sans', sans-serif;}
+.form_wrapper{width: 850px;display: block;margin: 200px auto;padding: 20px;}
+.add_button{color:white;background: darkturquoise; height: 35px; font-weight: bold; font-size: 15px; min-width: 100px; border-radius: 50px;padding: 6px;border:none;text-align: center;text-decoration: none;}
+.add_button:hover{text-decoration: none}
+.header_form{display: flex;justify-content: space-between;margin-bottom: 10px;}
+.form_title{margin: 0;font-size: 25px;font-weight: 100; color: #404E67}
+.table_employee{border-collapse: collapse;width: 100%;}
+.table_employee th,td{padding: 13px;font-size: 20px;border:1px solid #dee2e6;text-align: left;font-weight: 300;}
+.table_employee th{font-weight: bold;}
+.img_basket{margin-left: 15px;}
+.modal-content{width: 500px;box-shadow: 0 0 70px 30px;}
+.add_form{background: white;width: 550px;padding: 10px; position: absolute;right: 0;left: 0;margin: auto;border: 1px solid grey;text-align: left;border-radius: 10px;box-shadow: 0 0 70px 30px;}
+.del_form{background: white;width: 550px;height: 130px;padding: 10px; position: absolute;right: 0;left: 0;margin: auto;border: 1px solid grey;text-align: center;border-radius: 10px;box-shadow: 0 0 70px 30px;}
+.del_form_a:hover{text-decoration: none;}
+.del_form_span{font-weight: 600; font-size: 24px;color: grey;}
+.del_form_span:hover{color: black; font-weight: 900;cursor: pointer;}
+.edit_dialog{ position: absolute;left:0;right: 0;margin:auto;border-radius: 10px;box-shadow: 0 0 70px 30px;width: 560px;background: whitesmoke;}
+.edit_dialog input{width: 97%;}
+.modal-body {display: flex;justify-content: space-between;}
+.modal-footer{justify-content: center;flex-direction: column;}
+.validation{text-align: center;color: red;font-size: 13px;line-height: 13px;}
+.cursor:hover{cursor: pointer;}
+/*preloader*/
+.preloader{bottom: 28%; display: none;position: absolute;height: 75px;width: 75px;margin: auto;left: 0;right: 0; top: 0;}
+.spinner{width: 75px;height: 75px;margin: 0;border-top: 10px solid #ff3f34;box-shadow: 4px 4px 5px #d2d2d2 inset;border-right: 10px solid transparent;border-radius: 50%;animation: 1.5s spin linear infinite;}
+.spinner-2{width: 75px;height: 75px;margin: 0;border-top: 10px solid #0fbcf9;border-left: 10px solid transparent;border-radius: 50%;position: absolute;top: 0;animation: 1.5s spin-2 linear infinite;}
+@keyframes spin{from{ transform: rotate(0deg); }
+to{ transform: rotate(360deg); }
+}
+@keyframes spin-2{from{ transform: rotate(360deg); }
+to{ transform: rotate(0deg); }
+}
